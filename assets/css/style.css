@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.pages {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+.pages a {
+  color: #4F5F06;
+  background-color: #B2A602;
+  border-radius: 3px;
+}
