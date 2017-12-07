@@ -4,7 +4,7 @@ body {
 
 .headerdisplay {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .jumbotron {
@@ -32,4 +32,5 @@ body {
   border: 2px solid #753B0E;
   border-radius: 3px;
   padding: 7px;
+  text-decoration: none;
 }
