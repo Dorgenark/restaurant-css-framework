@@ -19,7 +19,8 @@ body {
   margin-left: 2rem; }
 
 .textkloug {
-  background-color: #8A8138; }
+  background-color: #8A8138;
+  padding: 20px; }
 
 .jumbotron {
   text-align: center;
