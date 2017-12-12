@@ -5,27 +5,27 @@ body {
 .headerdisplay {
   display: flex;
   justify-content: center;
-  padding: 5px;
+  align-items: center;
   background-color: #9E9344;
+  border: 1.5px solid #756D32;
 }
 
 .imgkloug {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
 }
 
 .imgkloug2 {
   border-radius: 10px;
+  border: 1.5px solid #756D32;
 }
 
 .imglogo {
-  margin-left: 2rem;
+  max-width: 50%;
 }
 
-.textkloug {
-  background-color: #8A8138;
-  padding: 20px;
+.text-primary {
+  color: #3E4A28;
 }
 
 .jumbotron {
@@ -39,9 +39,9 @@ body {
   font-size: 180%;
   display: inline;
   a {
-    color: #404C1D;
+    color: #3E4A28;
     background-color: #9E931D;
-    border: 2px solid #753B1D;
+    border: 1.7px solid #7D3F1F;
     border-radius: 3px;
     padding: 6px;
   }
@@ -50,7 +50,7 @@ body {
 .pages a:hover {
   color: #9E931D;
   background-color: #4F5F26;
-  border: 2px solid #753B1D;
+  border: 1.7px solid #7D3F1F;
   border-radius: 3px;
   padding: 6px;
   text-decoration: none;
@@ -62,7 +62,7 @@ body {
 }
 
 .textwhite {
-  color: #F2F2F2;
+  color: #EDEDED;
 }
 
 .sticky {

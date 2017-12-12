@@ -8286,9 +8286,9 @@ a.bg-dark:focus, a.bg-dark:hover {
   color: #fff !important;
 }
 
-.text-primary {
+/*.text-primary {
   color: #007bff !important;
-}
+}*/
 
 a.text-primary:focus, a.text-primary:hover {
   color: #0062cc !important;
