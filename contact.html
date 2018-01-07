@@ -23,11 +23,24 @@
 		</div>
 	</div>
 
-	<div>
-	<h1 class="main">Oops, page not found.</h1>
-			 <h1 class="number">404</h1>
-			 <img class="imghtml" src="http://nosamisleschiens.fr/wp-content/uploads/2016/01/carlin-pug-croquette-3.jpg">
-	</div>
+	<form action="/contactdata.txt" method="post">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="user_name" />
+    </div>
+    <div>
+        <label for="courriel">E-mail :</label>
+        <input type="email" id="courriel" name="user_email" />
+    </div>
+    <div>
+        <label for="message">Message :</label>
+        <textarea id="message" name="user_message"></textarea>
+    </div>
+
+    <div class="button">
+        <button type="submit">Envoyer</button>
+    </div>
+</form>
 
 	<script>
 window.onscroll = function() {myFunction()};
